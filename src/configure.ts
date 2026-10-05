@@ -2,11 +2,6 @@
  * @system mcp-multi-session
  * @status handwritten
  * @edit edit directly
- * configured-primitives template (per principles/coding-philosophy.md). The
- * mcp-multi-session package never imports @teamscala/logger directly —
- * instead it accepts an InjectedLogger via configure() at boot.
- * Bootloader injection lives in service-runtime per
- * bootloader-injection-contract.
  */
 
 // 1. Locally-defined contract — NEVER import from the upstream package.

@@ -2,12 +2,6 @@
  * @system mcp-multi-session
  * @status handwritten
  * @edit edit directly
- * Per-PID override file cache for the orchestrator session id.
- * Mirrors the agent-fleet-channel relay's override-watcher pattern:
- * watches /tmp/scala-orch-session-${pid}.txt for changes written by
- * scala-agents force_orchestrator_session, and exposes the
- * live value so the gateway can forward the correct
- * x-caller-orchestrator-session header without requiring a CLI restart.
  */
 
 import { type FSWatcher, watch } from "node:fs";
