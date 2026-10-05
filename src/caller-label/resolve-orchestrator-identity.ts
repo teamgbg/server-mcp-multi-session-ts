@@ -11,7 +11,6 @@ export function resolveOrchestratorIdentity(
 	tmuxPane: string | undefined | null,
 	orchSessionId: string | undefined | null,
 	report: (message: string) => void = () => {
-		/* no-op — see jsdoc above */
 	},
 ): string | null {
 	const paneRaw = typeof tmuxPane === "string" ? tmuxPane.trim() : "";
