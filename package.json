@@ -8,7 +8,7 @@
 	"capability": "MCP multi-session surface: bounded, named, retrying MCP server session manager, single sanctioned MCP session lifecycle.",
 	"tier": "server",
 	"type": "module",
-	"version": "1.3.154",
+	"version": "1.3.155",
 	"description": "MCP multi-session surface: bounded, named, retrying MCP server session manager, single sanctioned MCP session lifecycle.",
 	"imports": {
 		"#mcp-multi-session/*": "./src/*",
