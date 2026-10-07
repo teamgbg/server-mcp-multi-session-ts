@@ -18,12 +18,9 @@
 		"src"
 	],
 	"dependencies": {
-		"@teamscala/cache": "*",
+		"@teamscala/caller-label": "*",
 		"@teamscala/db": "*",
-		"@teamscala/logger": "*",
 		"@teamscala/os": "*",
-		"@teamscala/proc-walker": "*",
-		"@teamscala/retry": "*",
 		"@teamscala/timing": "*"
 	},
 	"devDependencies": {
@@ -34,22 +31,6 @@
 	"exports": {
 		"./caller-context": "./src/caller-context.ts",
 		"./caller-context.ts": "./src/caller-context.ts",
-		"./caller-label/caller-cache": "./src/caller-label/caller-cache.ts",
-		"./caller-label/caller-cache.ts": "./src/caller-label/caller-cache.ts",
-		"./caller-label/get-pid-from-port": "./src/caller-label/get-pid-from-port.ts",
-		"./caller-label/get-pid-from-port.ts": "./src/caller-label/get-pid-from-port.ts",
-		"./caller-label/orch-session-override": "./src/caller-label/orch-session-override.ts",
-		"./caller-label/orch-session-override.ts": "./src/caller-label/orch-session-override.ts",
-		"./caller-label/resolve-caller-label": "./src/caller-label/resolve-caller-label.ts",
-		"./caller-label/resolve-caller-label.ts": "./src/caller-label/resolve-caller-label.ts",
-		"./caller-label/resolve-orchestrator-identity": "./src/caller-label/resolve-orchestrator-identity.ts",
-		"./caller-label/resolve-orchestrator-identity.ts": "./src/caller-label/resolve-orchestrator-identity.ts",
-		"./caller-label/types": "./src/caller-label/types.ts",
-		"./caller-label/types.ts": "./src/caller-label/types.ts",
-		"./caller-label/walk-to-orch-session": "./src/caller-label/walk-to-orch-session.ts",
-		"./caller-label/walk-to-orch-session.ts": "./src/caller-label/walk-to-orch-session.ts",
-		"./caller-label/walk-to-orchestrator-binary": "./src/caller-label/walk-to-orchestrator-binary.ts",
-		"./caller-label/walk-to-orchestrator-binary.ts": "./src/caller-label/walk-to-orchestrator-binary.ts",
 		"./caller-tier": "./src/caller-tier.ts",
 		"./caller-tier.ts": "./src/caller-tier.ts",
 		"./configure": "./src/configure.ts",
