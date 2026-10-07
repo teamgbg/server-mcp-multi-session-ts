@@ -34,8 +34,8 @@ import {
 	type CallerInfo,
 	callerContextAsyncLocalStorage,
 } from "./caller-context.ts";
-import { getOrchSessionOverride } from "./caller-label/orch-session-override";
-import { resolveCallerLabel } from "./caller-label/resolve-caller-label";
+import { getOrchSessionOverride } from "@teamscala/caller-label/orch-session-override";
+import { resolveCallerLabel } from "@teamscala/caller-label/resolve-caller-label";
 
 const FORBIDDEN_HOST_ONLY = /^(mcp-client|gemini-cli|codex-cli|shell):[^:]+$/;
 const ENV_VAR_TEMPLATE_RE = /\$\{(\w+)\}/;
